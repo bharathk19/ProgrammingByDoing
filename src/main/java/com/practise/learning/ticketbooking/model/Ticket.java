@@ -90,6 +90,8 @@ public class Ticket {
 		this.email = email;
 	}
 	
-	
+	public Ticket() {
+		
+	}
 	
 }
