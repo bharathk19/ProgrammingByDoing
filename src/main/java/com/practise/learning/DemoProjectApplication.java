@@ -27,7 +27,6 @@ public class DemoProjectApplication implements CommandLineRunner {
 		ticket.setDestinationStation("GOA");
 		ticket.setPassengerName("Ramu");
 		ticket.setSourceStation("Hyderabad");
-		ticket.setTravelDate(new Date());
 		ticket.setEmail("ramu@gmail.com");
 		
 		ticketService.saveTicket(ticket);

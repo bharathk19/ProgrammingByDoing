@@ -25,7 +25,9 @@ public class TicketService {
 	}
 	
 	public Ticket saveTicket(Ticket saveTicket) {
-		return ticketingRepository.save(saveTicket);
+		Ticket ticketToSave = saveTicket;
+		ticketToSave.setTravelDate();
+		return ticketingRepository.save(ticketToSave);
 	}
 	
 	

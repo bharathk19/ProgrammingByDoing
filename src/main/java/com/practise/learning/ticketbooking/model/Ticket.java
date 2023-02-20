@@ -70,7 +70,7 @@ public class Ticket {
 		return travelDate;
 	}
 
-	public void setTravelDate(Date travelDate) {
+	public void setTravelDate() {
 		this.travelDate = new Date();
 	}
 
