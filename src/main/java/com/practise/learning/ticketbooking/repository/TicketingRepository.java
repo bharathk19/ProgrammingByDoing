@@ -6,7 +6,8 @@ import org.springframework.stereotype.Repository;
 import com.practise.learning.ticketbooking.model.Ticket;
 
 @Repository
-public interface TicketingRepository extends CrudRepository<Ticket, Integer>{
+public interface TicketingRepository extends CrudRepository<Ticket, Integer>
+{
 	
 	
 
