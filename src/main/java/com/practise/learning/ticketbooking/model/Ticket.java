@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name="table_name")
+@Table(name="ticket_name")
 public class Ticket {
 	
 	@Id
